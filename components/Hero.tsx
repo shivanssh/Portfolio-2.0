@@ -7,7 +7,7 @@ import Link from "next/link";
 const Hero = () => {
   const [text] = useTypewriter({
     words: [
-      "Hi, there my name is Shivansh Singh",
+      "Hi, the name's Shivansh Singh",
       "<Hate coffee but love Coding/>",
       "JavaScript is everywhere like me :)",
     ],
@@ -27,7 +27,7 @@ const Hero = () => {
           Software Engineer
         </h2>
         <h1>
-          <span className="text-3xl lg:text-5xl  font-semibold px-10 xsm:text-sm">
+          <span className="text-2xl lg:text-5xl  font-semibold px-10 xsm:text-sm">
             {text}
           </span>
           <Cursor cursorColor="#F7AB0A" />
