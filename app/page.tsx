@@ -1,4 +1,4 @@
-import { About, Header, Hero, WorkExperience } from "../components";
+import { About, Header, Hero, Skills, WorkExperience } from "../components";
 
 export default function Home() {
   return (
@@ -17,6 +17,9 @@ export default function Home() {
         <WorkExperience />
       </section>
       {/* Skills */}
+      <section id="skills" className="snap-start">
+        <Skills />
+      </section>
       {/* Projects */}
       {/* Contact me */}
     </div>
