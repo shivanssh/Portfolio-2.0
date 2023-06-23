@@ -1,0 +1,20 @@
+[
+    {
+        "id":"e1",
+        "company":"LTIMindtree",
+        "position":"Software Engineer",
+        "startDate":"April 2021",
+        "endDate":"Currently Working",
+        "tech":"MERN Stack",
+        "description":["Develop UIs as per figma","Develop APIs to interact with different in house systems","Integrating different services in UI","PR Reviews","Code Help"]
+    },
+    {
+        "id":"e2",
+        "company":"LTIMindtree",
+        "position":"Associate Trainee",
+        "startDate":"Jan 2021",
+        "endDate":"April 2021",
+        "tech":"MERN/MEAN Stack",
+        "description":["Trained on MERN & MEAN Stack","Communication & Business Etiquettes Training","Project Preparation and Codility Examinations"]
+    }
+]

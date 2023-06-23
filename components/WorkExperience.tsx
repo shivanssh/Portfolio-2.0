@@ -1,4 +1,5 @@
 "use client";
+import { experience } from "@/app/data";
 import ExperienceCard from "./ExperienceCard";
 import { motion } from "framer-motion";
 
@@ -20,13 +21,16 @@ const WorkExperience = () => {
         Experience
       </h3>
       <div
-        className="mt-24 w-full flex space-x-5 snap-x snap-mandatory overflow-x-scroll p-10 scrollbar scrollbar-track-grey-500
+        className="mt-24 w-full flex space-x-5 snap-x snap-mandatory overflow-x-scroll p-10 scrollbar-track-grey-500
        scrollbar-thin scrollbar-thumb-[#F7AB0A]/40"
       >
+        {experience?.map((item) => (
+          <ExperienceCard key={item.id} {...item} />
+        ))}
+        {/* <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        <ExperienceCard /> */}
       </div>
     </motion.div>
   );

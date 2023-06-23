@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sm-1",
+    "name": "github",
+    "url": "https://github.com/shivanssh"
+  },
+  {
+    "id": "sm-2",
+    "name": "linkedIn",
+    "url": "https://www.linkedin.com/in/shivansh-singh-b15b67232"
+  },
+  {
+    "id": "sm-3",
+    "name": "mail",
+    "url": "mailto:shivanshsinghkaushik@gmail.com"
+  },
+  {
+    "id": "sm-4",
+    "name": "phone",
+    "url": "tel:+911234567890"
+  }
+]

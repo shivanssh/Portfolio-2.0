@@ -3,6 +3,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { socialMedia } from "../app/data";
 
 const Header = () => {
   return (
@@ -26,21 +27,18 @@ const Header = () => {
         }}
         className="flex flex-row items-center"
       >
-        <SocialIcon
-          url="https://www.youtube.com"
-          bgColor="transparent"
-          fgColor="gray"
-        />
-        <SocialIcon
-          url="https://www.youtube.com"
-          bgColor="transparent"
-          fgColor="gray"
-        />
-        <SocialIcon
-          url="https://www.youtube.com"
-          bgColor="transparent"
-          fgColor="gray"
-        />
+        {socialMedia &&
+          socialMedia.map(({ url, id }) => {
+            return (
+              <SocialIcon
+                url={url}
+                bgColor="transparent"
+                fgColor="gray"
+                key={id}
+                target="_blank"
+              />
+            );
+          })}
       </motion.div>
 
       <motion.div
@@ -55,7 +53,7 @@ const Header = () => {
           scale: 1,
         }}
         transition={{ duration: 1.5 }}
-        className="flex flex-row items-center"
+        className="flex flex-row items-center justify-center"
       >
         <SocialIcon
           className="cursor-pointer"

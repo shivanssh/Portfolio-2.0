@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
+import { projects } from "@/app/data";
 
 const Projects = () => {
-  const projects = [1, 2, 3, 4, 5];
   return (
     <motion.div
       initial={{
@@ -24,7 +24,7 @@ const Projects = () => {
         {projects.map((project, idx) => {
           return (
             <div
-              key={idx}
+              key={project.id}
               className="w-screen h-screen px:22 md:px-44 flex-shrink-0 flex flex-col items-center justify-center space-y-5 snap-center"
             >
               <motion.img
@@ -40,26 +40,18 @@ const Projects = () => {
                   duration: 1.5,
                 }}
                 viewport={{ once: true }}
-                src="portfolio.jpg"
-                alt=""
+                src={project.imgUrl}
+                alt="no alt"
+                className="h-[300px] w-[600px] rounded-sm  "
               />
               <div className="flex flex-col max-w-6xl text-2xl text-center ">
                 <h4 className="underline decoration-gray-400 font-semibold">
                   Case study {idx + 1} of {projects.length}
-                  <span className="uppercase pl-1">- Portfolio</span>
+                  <span className="uppercase pl-1">- {project.name}</span>
                 </h4>
 
-                <p className="text-sm text-center md:text-left px-10">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis blanditiis, tenetur perspiciatis libero earum ex
-                  vero. Exercitationem explicabo delectus quae repudiandae
-                  voluptas iure consequatur at. Delectus enim provident quam et
-                  quaerat beatae voluptas iure recusandae saepe asperiores
-                  eligendi doloribus, atque iste corporis! Reprehenderit facere
-                  consequuntur eligendi veritatis quam, aliquid, a nulla ratione
-                  maxime accusamus laboriosam explicabo vel saepe dolor ipsum
-                  distinctio, eveniet fugiat sapiente in pariatur rerum et
-                  provident autem! Omnis veniam quos consectetur eum?
+                <p className="text-sm text-center md:text-left px-10 xl:text-2xl">
+                  {project.description}
                 </p>
               </div>
             </div>

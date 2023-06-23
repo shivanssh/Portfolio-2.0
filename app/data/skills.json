@@ -1,0 +1,75 @@
+[
+  {
+    "id": "s1",
+    "name": "JavaScript",
+    "logo": "./imgs/javascript.svg",
+    "proficiency": 90
+  },
+  {
+    "id": "s2",
+    "name": "Typescript",
+    "logo": "./imgs/typescript.svg",
+    "proficiency": 90
+  },
+  {
+    "id": "s3",
+    "name": "HTML5",
+    "logo": "./imgs/html5.svg",
+    "proficiency": 90
+  },
+  {
+    "id": "s4",
+    "name": "CSS3",
+    "logo": "./imgs/css3.svg",
+    "proficiency": 80
+  },
+  {
+    "id": "s5",
+    "name": "React",
+    "logo": "./imgs/react.svg",
+    "proficiency": 90
+  },
+  {
+    "id": "s6",
+    "name": "Redux",
+    "logo": "./imgs/redux.svg",
+    "proficiency": 90
+  },
+  {
+    "id": "s7",
+    "name": "Nodejs",
+    "logo": "./imgs/node.svg",
+    "proficiency": 80
+  },
+  {
+    "id": "s8",
+    "name": "MongoDB",
+    "logo": "./imgs/mongodb.svg",
+    "proficiency": 60
+  },
+  {
+    "id": "s9",
+    "name": "Tailwind",
+    "logo": "./imgs/tailwind.svg",
+    "proficiency": 60
+  },
+
+  {
+    "id": "s10",
+    "name": "Git",
+    "logo": "./imgs/git.svg",
+    "proficiency": 90
+  },
+  {
+    "id": "s11",
+    "name": "Github",
+    "logo": "./imgs/github.svg",
+    "proficiency": 90
+  },
+  {
+    "id": "s12",
+    "name": "Jira",
+    "logo": "./imgs/jira.svg",
+    "proficiency": 90
+  }
+]

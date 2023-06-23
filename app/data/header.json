@@ -1,0 +1,22 @@
+[
+  {
+    "id": "h1",
+    "name": "about",
+    "url": "#about"
+  },
+  {
+    "id": "h2",
+    "name": "experience",
+    "url": "#experience"
+  },
+  {
+    "id": "h3",
+    "name": "skills",
+    "url": "#skills"
+  },
+  {
+    "id": "h4",
+    "name": "projects",
+    "url": "#projects"
+  }
+]

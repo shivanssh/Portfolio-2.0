@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
+import { skills } from "@/app/data";
 
 const Skills = () => {
   return (
@@ -21,6 +22,10 @@ const Skills = () => {
         Hover over the icon to know the proficiency
       </h3>
       <div className="grid grid-cols-4 gap-5">
+        {skills?.map((item) => {
+          return <Skill key={item.id} {...item} />;
+        })}
+        {/* <Skill />
         <Skill />
         <Skill />
         <Skill />
@@ -31,8 +36,7 @@ const Skills = () => {
         <Skill />
         <Skill />
         <Skill />
-        <Skill />
-        <Skill />
+        <Skill /> */}
       </div>
     </motion.div>
   );
