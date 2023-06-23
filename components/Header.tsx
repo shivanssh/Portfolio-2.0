@@ -2,6 +2,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -54,17 +55,21 @@ const Header = () => {
           scale: 1,
         }}
         transition={{ duration: 1.5 }}
-        className="flex flex-row items-center cursor-pointer"
+        className="flex flex-row items-center"
       >
         <SocialIcon
           className="cursor-pointer"
           network="email"
+          url="#contact"
           bgColor="transparent"
           fgColor="gray"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-500">
+        <Link
+          href="#contact"
+          className="uppercase hidden md:inline-flex text-sm text-gray-500 cursor-pointer"
+        >
           get in touch
-        </p>
+        </Link>
       </motion.div>
     </header>
   );
