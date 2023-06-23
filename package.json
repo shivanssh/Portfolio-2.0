@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://shivanssh.github.io/Portfolio-2.0/",
+  "homepage": "https://shivanssh.github.io/Portfolio-2.0/",
   "private": true,
   "scripts": {
     "dev": "next dev",

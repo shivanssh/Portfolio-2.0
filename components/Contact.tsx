@@ -42,7 +42,7 @@ const Contact = () => {
       <div className="flex flex-col space-y-5 justify-evenly items-center md:text-left mt-[100px]">
         <h4 className="text-xl font-semibold text-center md:text-3xl">
           I have got just what you need.{" "}
-          <span className="underline decoration-red-500">Let's Talk.</span>
+          <span className="underline decoration-red-500">Lets Talk.</span>
         </h4>
         <div className="space-y-5">
           <div className="flex items-center justify-center space-x-2">
