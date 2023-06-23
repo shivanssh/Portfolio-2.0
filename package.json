@@ -1,9 +1,12 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "http://shivanssh.github.io/Portfolio-2.0/",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -27,6 +30,7 @@
     "typescript": "5.1.3"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwind-scrollbar": "^3.0.4"
   }
 }

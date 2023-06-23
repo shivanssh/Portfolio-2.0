@@ -50,7 +50,7 @@ const Projects = () => {
                   <span className="uppercase pl-1">- {project.name}</span>
                 </h4>
 
-                <p className="text-sm text-center md:text-left md:text-sm px-10  lg:text-lg xl:text-2xl">
+                <p className="text-sm text-center md:text-left px-10">
                   {project.description}
                 </p>
               </div>
