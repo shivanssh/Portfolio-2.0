@@ -21,6 +21,8 @@ const BackgroundCircle = () => {
       <div className="border border-[#333333] rounded-full h-[500px] w-[500px]  mt-52 absolute" />
       <div className="border border-[#F7AB0A] rounded-full h-[650px] w-[650px] opacity-20  mt-52 absolute" />
       <div className="border border-[#333333] rounded-full h-[800px] w-[800px] mt-52 absolute" />
+      <div className="border border-[#333333] rounded-full h-[1000px] w-[1000px] mt-52 absolute" />
+      <div className="border border-[#333333] rounded-full h-[1200px] w-[1200px] mt-52 absolute" />
     </motion.div>
   );
 };

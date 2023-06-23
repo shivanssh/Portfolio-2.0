@@ -22,7 +22,7 @@ const ExperienceCard = ({
 }: ExperienceProps) => {
   return (
     <article
-      className="flex flex-col rounded-lg items-center text-left space-y-7 flex-shrink-0 w-[400px] md:w-[500px] lg:w-[700px] snap-center 
+      className="flex flex-col rounded-lg items-center text-left space-y-2 flex-shrink-0 w-[400px] md:w-[500px] lg:w-[700px] snap-center 
     bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity overflow-hidden delay-100
     "
     >

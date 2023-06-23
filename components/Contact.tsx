@@ -34,13 +34,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-screen relative flex flex-col mx-auto items-center justify-center max-w-full md:flex-row text-left z-0 space-y-10">
-      <h3 className="top-24 absolute text-gray-500 tracking-[20px] text-2xl uppercase">
+    <div className="h-screen relative flex flex-col mx-auto items-center justify-center max-w-full md:flex-row text-left z-0">
+      <h3 className="top-20 absolute text-gray-500 tracking-[20px] text-2xl uppercase">
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-5 justify-evenly items-center md:text-left">
-        <h4 className="text-3xl font-semibold text-center">
+      <div className="flex flex-col space-y-5 justify-evenly items-center md:text-left mt-[100px]">
+        <h4 className="text-xl font-semibold text-center md:text-3xl">
           I have got just what you need.{" "}
           <span className="underline decoration-red-500">Let's Talk.</span>
         </h4>
@@ -57,8 +57,8 @@ const Contact = () => {
             <BiLogoGmail className="w-7 h-7 text-[#F7AB0A] animate-pulse" />
             <h4 className="text-2xl">test@gmail.com</h4>
           </div>
-          <form onSubmit={handleSubmit} className="flex flex-col space-y-2 ">
-            <div className="flex space-x-2">
+          <form onSubmit={handleSubmit} className="flex flex-col space-y-2 mx-auto items-center justify-center">
+            <div className="flex space-x-2 w-[80%] md:w-full">
               <input
                 type="text"
                 className="contactInput"
@@ -98,7 +98,7 @@ const Contact = () => {
             <button
               disabled={!formValue.email}
               type="submit"
-              className="bg-[#F7AB0B] p-2 rounded font-semibold text-black disabled:cursor-not-allowed"
+              className="bg-[#F7AB0B] w-[80%] p-2 rounded font-semibold text-black disabled:cursor-not-allowed md:w-full"
             >
               Submit
             </button>

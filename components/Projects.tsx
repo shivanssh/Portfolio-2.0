@@ -14,10 +14,10 @@ const Projects = () => {
       transition={{
         duration: 1.5,
       }}
-      className="relative h-[90%] flex flex-col items-center justify-center md:flex-row text-left overflow-hidden z-0 mx-auto max-w-full
+      className="relative h-screen flex flex-col items-center justify-center md:flex-row text-left overflow-hidden z-0 mx-auto max-w-full
       scrollbar scrollbar-track-grey-500 scrollbar-thumb-[#F7AB0A]/40"
     >
-      <h3 className="absolute top-24 text-2xl text-gray-500 tracking-[20px] uppercase">
+      <h3 className="absolute top-20 text-2xl text-gray-500 tracking-[20px] uppercase">
         Projects
       </h3>
       <div className="overflow-x-scroll top-20 flex overflow-y-hidden relative w-full snap-x snap-mandatory z-20">
@@ -25,7 +25,7 @@ const Projects = () => {
           return (
             <div
               key={project.id}
-              className="w-screen h-screen px:22 md:px-44 flex-shrink-0 flex flex-col items-center justify-center space-y-5 snap-center"
+              className="w-screen h-screen px:22 md:px-44 flex-shrink-0 flex flex-col items-center justify-center space-y-2 snap-center"
             >
               <motion.img
                 initial={{
@@ -42,7 +42,7 @@ const Projects = () => {
                 viewport={{ once: true }}
                 src={project.imgUrl}
                 alt="no alt"
-                className="h-[300px] w-[600px] rounded-sm  "
+                className="h-[100px] w-[150px] rounded-sm md:h-[250px] md:w-[500px] xl:h-[300px] xl:w-[600px] "
               />
               <div className="flex flex-col max-w-6xl text-2xl text-center ">
                 <h4 className="underline decoration-gray-400 font-semibold">
@@ -50,7 +50,7 @@ const Projects = () => {
                   <span className="uppercase pl-1">- {project.name}</span>
                 </h4>
 
-                <p className="text-sm text-center md:text-left px-10 xl:text-2xl">
+                <p className="text-sm text-center md:text-left md:text-sm px-10  lg:text-lg xl:text-2xl">
                   {project.description}
                 </p>
               </div>

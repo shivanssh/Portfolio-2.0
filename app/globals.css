@@ -8,6 +8,6 @@
     transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
   }
   .contactInput {
-    @apply outline-none bg-slate-400 text-gray-500 placeholder-gray-500 rounded border-[#F7AB0A] p-1 focus:text-black;
+    @apply outline-none bg-slate-400 text-gray-500 placeholder-gray-500 rounded border-[#F7AB0A] p-1 focus:text-black w-[80%] md:w-full;
   }
 }
