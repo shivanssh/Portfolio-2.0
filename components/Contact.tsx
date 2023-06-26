@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { FaPhoneAlt, FaAddressCard } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import { format } from "path";
+import { contact } from "../app/data";
 
 type FormInput = {
   name: string;
@@ -41,23 +41,26 @@ const Contact = () => {
 
       <div className="flex flex-col space-y-5 justify-evenly items-center md:text-left mt-[100px]">
         <h4 className="text-xl font-semibold text-center md:text-3xl">
-          I have got just what you need.{" "}
+          {contact.msg}{" "}
           <span className="underline decoration-red-500">Lets Talk.</span>
         </h4>
         <div className="space-y-5">
           <div className="flex items-center justify-center space-x-2">
             <FaPhoneAlt className="w-7 h-7 text-[#F7AB0A] animate-pulse" />
-            <h4 className="text-2xl">+91 1234567890</h4>
+            <h4 className="text-2xl">{contact.phone}</h4>
           </div>
           <div className="flex items-center justify-center space-x-2">
             <FaAddressCard className="w-7 h-7 text-[#F7AB0A] animate-pulse" />
-            <h4 className="text-2xl">test address</h4>
+            <h4 className="text-2xl">{contact.add}</h4>
           </div>
           <div className="flex items-center justify-center space-x-2">
             <BiLogoGmail className="w-7 h-7 text-[#F7AB0A] animate-pulse" />
-            <h4 className="text-2xl">test@gmail.com</h4>
+            <h4 className="text-2xl">{contact.email}</h4>
           </div>
-          <form onSubmit={handleSubmit} className="flex flex-col space-y-2 mx-auto items-center justify-center">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col space-y-2 mx-auto items-center justify-center"
+          >
             <div className="flex space-x-2 w-[80%] md:w-full">
               <input
                 type="text"

@@ -8,9 +8,9 @@ import { header } from "../app/data";
 const Hero = () => {
   const [text] = useTypewriter({
     words: [
-      "Hi, the name's Shivansh Singh",
+      "Hi There, my name Shivansh Singh",
       "<Hate's coffee but loves Coding/>",
-      "JavaScript is everywhere like me :)",
+      "Be a part of Browser, by JavaScript.js"
     ],
     loop: true,
     delaySpeed: 2000,
