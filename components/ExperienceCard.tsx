@@ -27,7 +27,7 @@ const ExperienceCard = ({
     "
     >
       <motion.img
-        src="computer.jpg"
+        src="imgs/company.png"
         alt="no alt"
         className="w-32 h-32 rounded-full flex-shrink-0 object-cover object-center xl:h-[200px] xl:w-[200px]"
       />
@@ -39,7 +39,7 @@ const ExperienceCard = ({
           Start - {startDate}, End - {endDate}
         </p>
         <ul className="list-disc space-y-2 ml-5 text-lg">
-          {description.map((item,idx) => (
+          {description.map((item, idx) => (
             <li key={idx}>{item}</li>
           ))}
         </ul>

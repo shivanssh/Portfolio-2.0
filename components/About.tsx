@@ -25,7 +25,7 @@ const About = () => {
         transition={{
           duration: 1.2,
         }}
-        src="computer.jpg"
+        src="imgs/avatar.png"
         className="mt-20 md:mb-0 h-56 w-56 rounded-full object-cover flex-shrink-0 md:rounded-lg md:w-64 md:h-95 xlg:w-[500px] xlg:h-[600px]"
       />
       <div className="py-2 px-0 md:px-10">
