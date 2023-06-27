@@ -29,7 +29,7 @@ const Contact = () => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    window.location.href = `mailto:shivanshsinghkaushik@gmail.com?subject=${formValue.subject}&body=Hi, my name is ${formValue.name} ${formValue.message} (${formValue.email})`;
+    window.location.href = `mailto:shivanshsinghkaushik@gmail.com?subject=${formValue.subject}&body=Hi, my name is ${formValue.name} - ${formValue.message} (${formValue.email})`;
     setFormValue(initialFormValue);
   };
 
