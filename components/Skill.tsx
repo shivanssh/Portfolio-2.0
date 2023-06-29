@@ -28,12 +28,12 @@ const Skill = ({
         }}
         transition={{ duration: 1 }}
         src={logo}
-        className="w-24 h-24 rounded-full xl:w-32 xl:h-32 md:w-28 md:h-28 border border-gray-500 object-cover
+        className="h-16 w-16 md:h-24 md:w-24 lg:w-28 lg:h-28 xl:h-32 xl:w-32 rounded-full border border-gray-500 object-cover
          filter group-hover:grayscale transition duration-300 ease-in-out bg-[#F7AB0A]/10"
       />
       <div
-        className="absolute group-hover:opacity-80 bg-white opacity-0 h-24 w-24 
-      md:w-28 md:h-28 xl:h-32 xl:w-32 rounded-full transition duration-300 ease-in-out"
+        className="absolute group-hover:opacity-80 bg-white opacity-0 h-16 w-16 md:h-24 md:w-24 
+      lg:w-28 lg:h-28 xl:h-32 xl:w-32 rounded-full transition duration-300 ease-in-out"
       >
         <div className="flex items-center justify-center h-full">
           <p className="text-3xl font-bold text-black opacity-100">

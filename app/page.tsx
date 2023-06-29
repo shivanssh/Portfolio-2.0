@@ -45,7 +45,7 @@ export default function Home() {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <img src="computer.jpg" alt="no alt" className="h-7 w-7 rounded-full " />
+            <img src="computer.jpg" alt="no alt" className="h-7 w-7 rounded-full opacity-60 hover:opacity-100 " />
           </div>
         </footer>
       </Link>

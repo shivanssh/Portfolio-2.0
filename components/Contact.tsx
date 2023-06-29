@@ -35,27 +35,27 @@ const Contact = () => {
 
   return (
     <div className="h-screen relative flex flex-col mx-auto items-center justify-center max-w-full md:flex-row text-left z-0">
-      <h3 className="top-20 absolute text-gray-500 tracking-[20px] text-2xl uppercase">
+      <h3 className="top-20 absolute text-gray-500 tracking-[20px] text-xl md:text-2xl lg:text-3xl uppercase">
         Contact
       </h3>
 
       <div className="flex flex-col space-y-5 justify-evenly items-center md:text-left mt-[100px]">
-        <h4 className="text-xl font-semibold text-center md:text-3xl">
+        <h4 className="text-xl lg:text-3xl font-semibold text-center md:text-2xl">
           {contact.msg}{" "}
           <span className="underline decoration-red-500">Lets Talk.</span>
         </h4>
         <div className="space-y-5">
           <div className="flex items-center justify-center space-x-2">
             <FaPhoneAlt className="w-7 h-7 text-[#F7AB0A] animate-pulse" />
-            <h4 className="text-2xl">{contact.phone}</h4>
+            <h4 className="text-xl">{contact.phone}</h4>
           </div>
           <div className="flex items-center justify-center space-x-2">
             <FaAddressCard className="w-7 h-7 text-[#F7AB0A] animate-pulse" />
-            <h4 className="text-2xl">{contact.add}</h4>
+            <h4 className="text-xl">{contact.add}</h4>
           </div>
           <div className="flex items-center justify-center space-x-2">
             <BiLogoGmail className="w-7 h-7 text-[#F7AB0A] animate-pulse" />
-            <h4 className="text-2xl">{contact.email}</h4>
+            <h4 className="text-xl">{contact.email}</h4>
           </div>
           <form
             onSubmit={handleSubmit}

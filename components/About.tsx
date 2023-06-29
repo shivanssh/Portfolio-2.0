@@ -26,7 +26,7 @@ const About = () => {
           duration: 1.2,
         }}
         src="imgs/avatar.png"
-        className="mt-20 md:mb-0 h-56 w-56 rounded-full object-cover flex-shrink-0 md:rounded-lg md:w-64 md:h-95 xlg:w-[500px] xlg:h-[600px]"
+        className="mt-20 md:mb-0  h-36 w-36 md:h-56 md:w-56 rounded-full object-cover flex-shrink-0 md:rounded-lg lg:w-64 md:h-95 xlg:w-[500px] xlg:h-[600px]"
       />
       <div className="py-2 px-0 md:px-10">
         <h3 className="text-2xl font-semibold">

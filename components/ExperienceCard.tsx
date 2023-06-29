@@ -23,8 +23,7 @@ const ExperienceCard = ({
   return (
     <article
       className="flex flex-col rounded-lg items-center text-left space-y-2 flex-shrink-0 w-[400px] md:w-[500px] lg:w-[700px] snap-center 
-    bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity overflow-hidden delay-100
-    "
+    bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity overflow-hidden delay-100 overflow-y-scroll scrollbar-thin scrollbar-thumb-[#F7AB0A]/10"
     >
       <motion.img
         src="imgs/company.png"
