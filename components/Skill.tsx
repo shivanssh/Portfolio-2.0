@@ -36,7 +36,7 @@ const Skill = ({
       lg:w-28 lg:h-28 xl:h-32 xl:w-32 rounded-full transition duration-300 ease-in-out"
       >
         <div className="flex items-center justify-center h-full">
-          <p className="text-3xl font-bold text-black opacity-100">
+          <p className="text-xl font-bold text-black opacity-100">
             {proficiency}% <span className="text-sm">{name}</span>
           </p>
         </div>
