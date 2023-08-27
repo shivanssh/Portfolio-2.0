@@ -2,7 +2,7 @@
   {
     "id": "p1",
     "name": "Connect",
-    "imgUrl": "./imgs/connect.png",
+    "imgUrl": "./imgs/connectApp.png",
     "description": "It is an social media application to connect with different peoples, UI is powered by React, Redux, Redux-Persist and MUI with dark and light theme, Backend is by ExpressJS using Mongoose as ODM and Atlas as database."
   },
   {
