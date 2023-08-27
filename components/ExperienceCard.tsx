@@ -12,7 +12,6 @@ type ExperienceProps = {
 };
 
 const ExperienceCard = ({
-  id,
   company,
   position,
   startDate,

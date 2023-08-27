@@ -1,42 +1,48 @@
 [
   {
     "id": "p1",
+    "name": "Connect",
+    "imgUrl": "./imgs/connect.png",
+    "description": "It is an social media application to connect with different peoples, UI is powered by React, Redux, Redux-Persist and MUI with dark and light theme, Backend is by ExpressJS using Mongoose as ODM and Atlas as database."
+  },
+  {
+    "id": "p2",
     "name": "Goal Setter",
     "imgUrl": "./imgs/goalSetter.png",
     "description": "The application is mainly focused on adding goals,updating, and deleting them with JWT for user authentication. THe Backend is backed with ExpressJS+MongoDB Atlas with Mongoose as ODM.Whereas UI is powered by React as view and routing and state management is handled by React-Router-Dom plus Redux Toolkit."
   },
   {
-    "id": "p2",
+    "id": "p3",
     "name": "User Management",
     "imgUrl": "./imgs/usermanagement.png",
     "description": "Application mainly focuses on user addition,updating and deletion with pagination,sort and search functionality. UI is powered by React with Redux Toolkit for state management and Redux Saga for side effects. The application is written in Typescript with webpack & tsconfig configuration."
   },
   {
-    "id": "p3",
+    "id": "p4",
     "name": "Portfolio 2.0",
     "imgUrl": "./imgs/portfolio2.png",
     "description": "It is an NextJS based portfolio with tailwind as css pre-processor and Framer-motion to handle animation."
   },
   {
-    "id": "p4",
+    "id": "p5",
     "name": "Shopping Cart",
     "imgUrl": "./imgs/shoppingCart.png",
     "description": "Application is powered by React-TypeScript with Context API for state management, the application mainly focuses on the cart functionality like addition,deletion and simultaneously updating the data in the cart and in the main UI as well."
   },
   {
-    "id": "p5",
+    "id": "p6",
     "name": "React Rolodex",
     "imgUrl": "./imgs/rolodex.png",
     "description": "It is a basic React application, with API calls and search functionality for filtration."
   },
   {
-    "id": "p6",
+    "id": "p7",
     "name": "Portfolio",
     "imgUrl": "./imgs/portfolio1.png",
     "description": "It is a React-base portfolio application with CSS-based animations with different pages like Contact,About, and Home."
   },
   {
-    "id": "p7",
+    "id": "p8",
     "name": "Kings Clothing",
     "imgUrl": "computer.jpg",
     "description": "Application is mainly focus on the E-commerce functionality, with React as UI and firebase as Backend(Above image is not from the project)."
