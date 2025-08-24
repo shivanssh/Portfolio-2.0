@@ -10,7 +10,9 @@ COPY . .
 #Install dependencies
 RUN npm install 
 
-#Build
-RUN npm run Build
+#Build & Expose
+RUN npm run build
+EXPOSE 3000
 
-CMD ['npm','start']
+#Start
+CMD ["npx", "serve@latest", "out"]

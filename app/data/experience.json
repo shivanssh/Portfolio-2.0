@@ -6,15 +6,6 @@
     "startDate": "Nov 2023",
     "endDate": "Currently Working",
     "tech": "MERN Stack",
-    "description": ["", ""]
-  },
-  {
-    "id": "e3",
-    "company": "LTIMindtree",
-    "position": "Senior Software Engineer",
-    "startDate": "July 2023",
-    "endDate": "Nov 2023",
-    "tech": "MERN Stack",
     "description": [
       "Built and delivered high-performance UI's using React.js, reducing average page load times and improving user satisfaction",
       "Leveraged Next.js Server Components and Server Actions to optimize application performance and reduce client-side load",
@@ -26,6 +17,22 @@
       "Implemented Sharp for high-performance image processing and optimization in production environments",
       "Recently adopted Amazon Q to automate test case generation, boosting efficiency and coverage",
       "Collaborated with teammates through code reviews, ensuring adherence to best practices and boosting code quality and delivery efficiency"
+    ]
+  },
+  {
+    "id": "e3",
+    "company": "LTIMindtree",
+    "position": "Senior Software Engineer",
+    "startDate": "July 2023",
+    "endDate": "Nov 2023",
+    "tech": "MERN Stack",
+    "description": [
+      "Technical assistance in RFP for ReactJS based projects",
+      "Develop UIs as per figma",
+      "Develop APIs to interact with different in house systems",
+      "Integrating different services in UI",
+      "PR Reviews",
+      "Code Help"
     ]
   },
   {
